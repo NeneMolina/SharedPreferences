@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Usuario"
+        android:textSize="30dp" />
+
+    <EditText
+    android:id="@+id/Clave"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/TextoClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Clave"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Guardar"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/Recuperar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Recuperar"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>

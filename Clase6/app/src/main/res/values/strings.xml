@@ -1,0 +1,7 @@
+<resources>
+    <stringul name="app_name">Clase6</stringul>
+    <string name="Usuario">Usuario</string>
+    <string name="Clave">Clave</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Recuperar">Recuperar</string>
+</resources>
